@@ -5,6 +5,7 @@ exports.config = {
       args: ['--no-sandbox']
     }
   },
+  
   directConnect: true,
   baseUrl: 'https://testing-angular-applications.github.io',
   
