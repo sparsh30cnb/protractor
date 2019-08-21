@@ -14,10 +14,10 @@ exports.config = {
   specs: [
     './e2e/first-test.e2e-spec.ts'
   ],
-  onPrepare: () => {
-    require('ts-node').register({
-      project: 'e2e'
-    });
-  },
+ // onPrepare: () => {
+   // require('ts-node').register({
+     // project: 'e2e'
+    //});
+  //},
   useAllAngular2AppRoots: true
 };
